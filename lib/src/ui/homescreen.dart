@@ -11,7 +11,6 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   TextEditingController gstNumberController = TextEditingController();
-  // ApiController apiController = ApiController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(

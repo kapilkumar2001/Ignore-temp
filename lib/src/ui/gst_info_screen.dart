@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:gst_app/src/models/gst_model.dart';
-import 'package:gst_app/src/resources/firebase.dart';
 import 'package:gst_app/widgets/custom_container.dart';
 import 'package:gst_app/widgets/header.dart';
 
@@ -15,17 +14,6 @@ class GSTInfoScreen extends StatefulWidget {
 }
 
 class _GSTInfoScreenState extends State<GSTInfoScreen> {
-  // late Future<GSTModel> gstInfo;
-
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   String uid = widget.gstNumber;
-  //   gstInfo = getProfile(uid);
-  //   print(gstInfo.toString());
-  //   print("gstprofile initilized");
-  // }
-
   late Future<GSTModel> profile;
 
   List<GSTModel> allprofiles = [];
